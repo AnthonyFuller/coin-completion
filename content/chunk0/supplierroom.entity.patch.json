@@ -1,271 +1,238 @@
 {
-    "tempHash": "00A7DE3CC5CD9068",
-    "tbluHash": "00682B75FB1563E4",
-    "patch": [
-        {
-            "SubEntityOperation": [
-                "4c938898b9b64483",
-                {
-                    "PatchArrayPropertyValue": [
-                        "m_entries",
-                        [
-                            {
-                                "AddItemAfter": [
-                                    "385ee603afabf981",
-                                    "feeda566e8d36586"
-                                ]
-                            },
-                            {
-                                "AddItemAfter": [
-                                    "385ee603afabf981",
-                                    "feed0960e9ceeda7"
-                                ]
-                            },
-                            {
-                                "AddItemAfter": [
-                                    "385ee603afabf981",
-                                    "feed765b4d33d5f8"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ]
-        },
-        {
-            "SubEntityOperation": [
-                "468b90560118a9e7",
-                {
-                    "PatchArrayPropertyValue": [
-                        "m_entries",
-                        [
-                            {
-                                "AddItemAfter": [
-                                    "385ee603afabf981",
-                                    "feeda566e8d36586"
-                                ]
-                            },
-                            {
-                                "AddItemAfter": [
-                                    "385ee603afabf981",
-                                    "feed0960e9ceeda7"
-                                ]
-                            },
-                            {
-                                "AddItemAfter": [
-                                    "385ee603afabf981",
-                                    "feed765b4d33d5f8"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ]
-        },
-        {
-            "SubEntityOperation": [
-                "5896768ecf13e551",
-                {
-                    "PatchArrayPropertyValue": [
-                        "m_Choices",
-                        [
-                            {
-                                "AddItemAfter": [
-                                    "b706c38cff803be",
-                                    "feed0960e9ceeda7"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ]
-        },
-        {
-            "SubEntityOperation": [
-                "ef3e25baa8cd87cb",
-                {
-                    "PatchArrayPropertyValue": [
-                        "m_Choices",
-                        [
-                            {
-                                "AddItemAfter": [
-                                    "385ee603afabf981",
-                                    "feeda566e8d36586"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ]
-        },
-        {
-            "SubEntityOperation": [
-                "d7fdd9142b0d3725",
-                {
-                    "PatchArrayPropertyValue": [
-                        "m_Choices",
-                        [
-                            {
-                                "AddItemAfter": [
-                                    "73b39ab1591d819e",
-                                    "feed765b4d33d5f8"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feed765b4d33d5f8",
-                {
-                    "parent": "d7fdd9142b0d3725",
-                    "name": "Helper_Evergreen_SelectableItem_Coin_OutstandingService",
-                    "factory": "0066D1FE93A19221",
-                    "blueprint": "00476A4794A90415",
-                    "properties": {
-                        "Supplier": {
-                            "type": "bool",
-                            "value": true
-                        },
-                        "m_mTransform": {
-                            "type": "SMatrix43",
-                            "value": {
-                                "rotation": {
-                                    "x": -90,
-                                    "y": 0,
-                                    "z": 0
-                                },
-                                "position": {
-                                    "x": 0,
-                                    "y": 0,
-                                    "z": 0
-                                }
-                            }
-                        },
-                        "m_bVisibleInBoxReflection": {
-                            "type": "bool",
-                            "value": false
-                        },
-                        "m_bVisible": {
-                            "type": "bool",
-                            "value": true
-                        },
-                        "m_eidParent": {
-                            "type": "SEntityTemplateReference",
-                            "value": "d7fdd9142b0d3725",
-                            "postInit": true
-                        }
-                    },
-                    "subsets": {
-                        "AudioEmitters": [
-                            "22edf43d9609168f"
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feed0960e9ceeda7",
-                {
-                    "parent": "5896768ecf13e551",
-                    "name": "Helper_Evergreen_SelectableItem_Coin_OutstandingService",
-                    "factory": "0066D1FE93A19221",
-                    "blueprint": "00476A4794A90415",
-                    "properties": {
-                        "Supplier": {
-                            "type": "bool",
-                            "value": true
-                        },
-                        "m_mTransform": {
-                            "type": "SMatrix43",
-                            "value": {
-                                "rotation": {
-                                    "x": -90,
-                                    "y": 0,
-                                    "z": 0
-                                },
-                                "position": {
-                                    "x": 0,
-                                    "y": 0,
-                                    "z": 0
-                                }
-                            }
-                        },
-                        "m_bVisibleInBoxReflection": {
-                            "type": "bool",
-                            "value": false
-                        },
-                        "m_bVisible": {
-                            "type": "bool",
-                            "value": true
-                        },
-                        "m_eidParent": {
-                            "type": "SEntityTemplateReference",
-                            "value": "5896768ecf13e551",
-                            "postInit": true
-                        }
-                    },
-                    "subsets": {
-                        "AudioEmitters": [
-                            "22edf43d9609168f"
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feeda566e8d36586",
-                {
-                    "parent": "ef3e25baa8cd87cb",
-                    "name": "Helper_Evergreen_SelectableItem_Coin_OutstandingService",
-                    "factory": "0066D1FE93A19221",
-                    "blueprint": "00476A4794A90415",
-                    "properties": {
-                        "Supplier": {
-                            "type": "bool",
-                            "value": true
-                        },
-                        "m_mTransform": {
-                            "type": "SMatrix43",
-                            "value": {
-                                "rotation": {
-                                    "x": -90,
-                                    "y": 0,
-                                    "z": 0
-                                },
-                                "position": {
-                                    "x": 0,
-                                    "y": 0,
-                                    "z": 0
-                                }
-                            }
-                        },
-                        "m_bVisibleInBoxReflection": {
-                            "type": "bool",
-                            "value": false
-                        },
-                        "m_bVisible": {
-                            "type": "bool",
-                            "value": true
-                        },
-                        "m_eidParent": {
-                            "type": "SEntityTemplateReference",
-                            "value": "ef3e25baa8cd87cb",
-                            "postInit": true
-                        }
-                    },
-                    "subsets": {
-                        "AudioEmitters": [
-                            "22edf43d9609168f"
-                        ]
-                    }
-                }
-            ]
-        }
-    ],
-    "patchVersion": 6
+	"tempHash": "00A7DE3CC5CD9068",
+	"tbluHash": "00682B75FB1563E4",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"4c938898b9b64483",
+				{
+					"PatchArrayPropertyValue": [
+						"m_entries",
+						[
+							{
+								"AddItemAfter": ["385ee603afabf981", "feeda566e8d36586"]
+							},
+							{
+								"AddItemAfter": ["385ee603afabf981", "feed0960e9ceeda7"]
+							},
+							{
+								"AddItemAfter": ["385ee603afabf981", "feed765b4d33d5f8"]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"468b90560118a9e7",
+				{
+					"PatchArrayPropertyValue": [
+						"m_entries",
+						[
+							{
+								"AddItemAfter": ["385ee603afabf981", "feeda566e8d36586"]
+							},
+							{
+								"AddItemAfter": ["385ee603afabf981", "feed0960e9ceeda7"]
+							},
+							{
+								"AddItemAfter": ["385ee603afabf981", "feed765b4d33d5f8"]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5896768ecf13e551",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{
+								"AddItemAfter": ["b706c38cff803be", "feed0960e9ceeda7"]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ef3e25baa8cd87cb",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{
+								"AddItemAfter": ["385ee603afabf981", "feeda566e8d36586"]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d7fdd9142b0d3725",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{
+								"AddItemAfter": ["73b39ab1591d819e", "feed765b4d33d5f8"]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed765b4d33d5f8",
+				{
+					"parent": "d7fdd9142b0d3725",
+					"name": "Helper_Evergreen_SelectableItem_Coin_OutstandingService",
+					"factory": "0066D1FE93A19221",
+					"blueprint": "00476A4794A90415",
+					"properties": {
+						"Supplier": {
+							"type": "bool",
+							"value": true
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -90,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							}
+						},
+						"m_bVisibleInBoxReflection": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "d7fdd9142b0d3725",
+							"postInit": true
+						}
+					},
+					"subsets": {
+						"AudioEmitters": ["22edf43d9609168f"]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed0960e9ceeda7",
+				{
+					"parent": "5896768ecf13e551",
+					"name": "Helper_Evergreen_SelectableItem_Coin_OutstandingService",
+					"factory": "0066D1FE93A19221",
+					"blueprint": "00476A4794A90415",
+					"properties": {
+						"Supplier": {
+							"type": "bool",
+							"value": true
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -90,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							}
+						},
+						"m_bVisibleInBoxReflection": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "5896768ecf13e551",
+							"postInit": true
+						}
+					},
+					"subsets": {
+						"AudioEmitters": ["22edf43d9609168f"]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feeda566e8d36586",
+				{
+					"parent": "ef3e25baa8cd87cb",
+					"name": "Helper_Evergreen_SelectableItem_Coin_OutstandingService",
+					"factory": "0066D1FE93A19221",
+					"blueprint": "00476A4794A90415",
+					"properties": {
+						"Supplier": {
+							"type": "bool",
+							"value": true
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -90,
+									"y": 0,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							}
+						},
+						"m_bVisibleInBoxReflection": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "ef3e25baa8cd87cb",
+							"postInit": true
+						}
+					},
+					"subsets": {
+						"AudioEmitters": ["22edf43d9609168f"]
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
 }

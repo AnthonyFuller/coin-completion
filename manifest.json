@@ -1,17 +1,12 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"id": "anthonyfuller.coincompletion",
 	"name": "Coin Completion",
 	"description": "Have you ever wanted to complete your Freelancer Tools collection? Well now you can!",
-	"authors": [
-		"Anthony Fuller"
-	],
+	"authors": ["Anthony Fuller"],
 	"frameworkVersion": "2.21.2",
-	"contentFolders": [
-		"content"
-	],
-	"dependencies": [
-		"0066D1FE93A19221"
-	]
+	"contentFolders": ["content"],
+	"dependencies": ["0066D1FE93A19221"],
+	"updateCheck": "https://github.com/AnthonyFuller/coin-completion/releases/latest/download/updates.json"
 }

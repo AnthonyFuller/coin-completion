@@ -1,85 +1,77 @@
 {
-    "tempHash": "00B917F348CF904D",
-    "tbluHash": "00B08A36F5AF5C5B",
-    "patch": [
-        {
-            "SubEntityOperation": [
-                "435966c1db567041",
-                {
-                    "PatchArrayPropertyValue": [
-                        "m_entries",
-                        [
-                            {
-                                "AddItemAfter": [
-                                    "2a51d6841070df5f",
-                                    "feed2d5281c46268"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ]
-        },
-        {
-            "SubEntityOperation": [
-                "8002023172197d15",
-                {
-                    "PatchArrayPropertyValue": [
-                        "m_Choices",
-                        [
-                            {
-                                "AddItemAfter": [
-                                    "39c9f981f07d0139",
-                                    "feed2d5281c46268"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feed2d5281c46268",
-                {
-                    "parent": "8002023172197d15",
-                    "name": "Helper_Evergreen_SelectableItem_Coin_OutstandingService",
-                    "factory": "0066D1FE93A19221",
-                    "blueprint": "00476A4794A90415",
-                    "properties": {
-                        "Stash": {
-                            "type": "bool",
-                            "value": true
-                        },
-                        "m_mTransform": {
-                            "type": "SMatrix43",
-                            "value": {
-                                "rotation": {
-                                    "x": 0,
-                                    "y": 180,
-                                    "z": 0
-                                },
-                                "position": {
-                                    "x": 0,
-                                    "y": 0,
-                                    "z": 0
-                                }
-                            }
-                        },
-                        "m_eidParent": {
-                            "type": "SEntityTemplateReference",
-                            "value": "8002023172197d15",
-                            "postInit": true
-                        }
-                    },
-                    "subsets": {
-                        "AudioEmitters": [
-                            "9dde82f05bf7ef8"
-                        ]
-                    }
-                }
-            ]
-        }
-    ],
-    "patchVersion": 6
+	"tempHash": "00B917F348CF904D",
+	"tbluHash": "00B08A36F5AF5C5B",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"435966c1db567041",
+				{
+					"PatchArrayPropertyValue": [
+						"m_entries",
+						[
+							{
+								"AddItemAfter": ["2a51d6841070df5f", "feed2d5281c46268"]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8002023172197d15",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{
+								"AddItemAfter": ["39c9f981f07d0139", "feed2d5281c46268"]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed2d5281c46268",
+				{
+					"parent": "8002023172197d15",
+					"name": "Helper_Evergreen_SelectableItem_Coin_OutstandingService",
+					"factory": "0066D1FE93A19221",
+					"blueprint": "00476A4794A90415",
+					"properties": {
+						"Stash": {
+							"type": "bool",
+							"value": true
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 180,
+									"z": 0
+								},
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "8002023172197d15",
+							"postInit": true
+						}
+					},
+					"subsets": {
+						"AudioEmitters": ["9dde82f05bf7ef8"]
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
 }

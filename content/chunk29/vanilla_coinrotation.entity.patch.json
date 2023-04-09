@@ -1,29 +1,29 @@
 {
-    "tempHash": "00A9B93A825F5BDC",
-    "tbluHash": "005BA5CA6AC00627",
-    "patch": [
-        {
-            "SubEntityOperation": [
-                "ca4ccca2d4a46be",
-                {
-                    "SetPropertyValue": {
-                        "property_name": "m_mTransform",
-                        "value": {
-                            "rotation": {
-                                "x": -180,
-                                "y": 0,
-                                "z": 0
-                            },
-                            "position": {
-                                "x": 0.4135740101337433,
-                                "y": 0.2668919861316681,
-                                "z": 1.1972869634628296
-                            }
-                        }
-                    }
-                }
-            ]
-        }
-    ],
-    "patchVersion": 6
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ca4ccca2d4a46be",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -180,
+								"y": 0,
+								"z": 0
+							},
+							"position": {
+								"x": 0.4135740101337433,
+								"y": 0.2668919861316681,
+								"z": 1.1972869634628296
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
 }
