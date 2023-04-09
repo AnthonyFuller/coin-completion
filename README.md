@@ -1,11 +1,18 @@
-# Mod template
+# Coin Completion
 
-To get started, customise manifest.json to your liking, then create a commit along the lines of `feat: initial mod`. If you're looking to integrate this into an existing mod you have, copy everything from that mod over to this template, create a commit such as `chore: transfer existing mod` and then tag that commit with the currently released version of the mod (the initial commit will still automatically be tagged 0.1.0, which is fine).
+Have you ever wanted to complete your Freelancer Tools collection? Well now you can!
 
-This template will do everything for you, including versioning, generating changelogs and creating mod ZIPs; just make sure you follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0). If you want to have multiple new features in a release, just work in a branch and then merge it into the main branch once you want to release.
+This mod adds the Outstanding Service Coin to the Supplier and Supply Crate pool.
+It also fixes the rotation of the coin in the case, just so it is consistent.
 
-As a rule of thumb, anything that doesn't drastically alter the mod or make sweeping changes that could break other mods should be either an `enhancement` (for improvements to existing parts of the mod), `feat` (for new parts of the mod) or `fix` (for bugfixes). You can specify the part of the mod you're changing like so: `fix(epic feature): do this thing properly`.
+Works on official, but there's a caveat:
+- Price on official: 50 M
+- Price on Peacock: 5000 M
 
-If you do drastically alter the mod or make sweeping changes that could break other mods, add an exclamation mark just before the `:`, and write `BREAKING CHANGE: This thing is now this thing, which means this.` in the "description" or "footer" of the commit.
+Price on Peacock has been adjusted with the "inflation" IOI did, it will work on official too if you disable dynamic resources.
+This mod **does not** disable it for you as I don't really see a need to do that.
 
-An important note: the version for the mod starts at `0.1.0`, which means the mod is in development. When you finalise the mod for its first release, add an exclamation mark before the `:` and the version will automatically be bumped to `1.0.0`.
+**Installation Instruction**
+1. Make sure the Simple Mod Framework is installed, you can find (it here)[https://www.nexusmods.com/hitman3/mods/200/].
+2. Download the zip from the Files tab and open the Mod Manager GUI, use the **Add a Mod** button and select the zip you just downloaded.
+3. Press **Apply** and enjoy your coin.

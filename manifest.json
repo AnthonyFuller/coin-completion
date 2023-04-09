@@ -1,9 +1,17 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Incredible Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.15.1"
+	"id": "anthonyfuller.coincompletion",
+	"name": "Coin Completion",
+	"description": "Have you ever wanted to complete your Freelancer Tools collection? Well now you can!",
+	"authors": [
+		"Anthony Fuller"
+	],
+	"frameworkVersion": "2.21.2",
+	"contentFolders": [
+		"content"
+	],
+	"dependencies": [
+		"0066D1FE93A19221"
+	]
 }
