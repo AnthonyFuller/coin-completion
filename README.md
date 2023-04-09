@@ -13,6 +13,6 @@ Price on Peacock has been adjusted with the "inflation" IOI did, it will work on
 This mod **does not** disable it for you as I don't really see a need to do that.
 
 **Installation Instruction**
-1. Make sure the Simple Mod Framework is installed, you can find (it here)[https://www.nexusmods.com/hitman3/mods/200/].
+1. Make sure the Simple Mod Framework is installed, you can find [it here](https://www.nexusmods.com/hitman3/mods/200/).
 2. Download the zip from the Files tab and open the Mod Manager GUI, use the **Add a Mod** button and select the zip you just downloaded.
 3. Press **Apply** and enjoy your coin.
